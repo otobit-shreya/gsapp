@@ -48,7 +48,7 @@ export class PreviewComponent implements OnInit {
 
   getData() {
     this.http
-      .get(`https://sheet.best/api/sheets/46d03b7e-6076-4b66-bf62-532e404ad621`)
+      .get(`https://sheet.best/api/sheets/9423c351-334d-4832-a1e3-a62647fd544c`)
       .subscribe(
         (res: any) => {
           console.log('Received data:', res);
